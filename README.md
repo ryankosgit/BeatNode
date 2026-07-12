@@ -24,12 +24,13 @@ BeatNode
 
 # DATA & EXECUTION
 
-**Sneak Peak of ```dj_library.csv```**
+**```dj_library.csv``` Format**
 | title | artist | bpm | key |
 | -------- | -------- | -------- | -------- |
 | Sippin' Yak  | Cloonee  | 127  | 1A  |
 | Losing It | Fisher  | 125  | 6A  |
 | If U Need It  | Sammy Virji  | 132  | 2A  |
+
 
 
 
