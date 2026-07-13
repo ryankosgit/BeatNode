@@ -45,7 +45,7 @@ BeatNode
 
 
 ### CAMELOT WHEEL 
-<img width="564" height="564" alt="image" src="https://github.com/user-attachments/assets/018cf5b1-8463-4eb0-891a-2c2f2d9dee88" />
+<img width="282" height="282" alt="image" src="https://github.com/user-attachments/assets/018cf5b1-8463-4eb0-891a-2c2f2d9dee88" />
 
 - Typically, songs' keys are written as Ab, F# minor, or C major, but I used the Camelot Wheel to map them for easier calculations 
 - To find songs in similar keys on the Camelot Wheel, you observe adjacent number or letter segments 
