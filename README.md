@@ -1,4 +1,4 @@
-<img src="https://github.com/ryankosgit/BeatNode/blob/master/edgeproj/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="150" height="150">
+<img src="edgeproj/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="150" height="150">
 
 
 # BeatNode
