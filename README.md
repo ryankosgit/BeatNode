@@ -1,4 +1,4 @@
-<img>
+<img src="img/icon.png">
 
 # BeatNode
 BeatNode is an iOS app that uses low-latency edge computing and heuristic algorithms to predict the 3 next best songs to play while DJing based on the current song's key and beats per minute.
