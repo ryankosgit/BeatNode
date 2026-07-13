@@ -1,4 +1,4 @@
-<img src="https://github.com/ryankosgit/BeatNode/img/icon.png" width="150" height="150">
+<img src="https://github.com/ryankosgit/BeatNode/img/icon.png">
 
 
 # BeatNode
