@@ -22,6 +22,9 @@ BeatNode
 ├── edgeprojUITests/
 │   ├── edgeprojUITests.swift
 │   ├── edgeprojUITests.swift
+├── README.md
+├── img/ # (Pictures for the README)
+
 ```
 
 # HOW TO USE
