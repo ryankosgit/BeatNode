@@ -66,19 +66,19 @@ BeatNode
 
 # INSIDE THE APP
 
-<img src="img/beatnode1.PNG" width="960" height="640">
+<img src="img/beatnode1.PNG" width="150" height="300">
 
 Upon entering the app, the user is greeted with a search bar at the top.
 
-<img src="img/beatnode2.PNG" width="960" height="640">
+<img src="img/beatnode2.PNG" width="150" height="300">
 
 In this example, I typed the song "Rhyme Dust" in the search bar.
 
-<img src="img/beatnode3.PNG" width="960" height="640">
+<img src="img/beatnode3.PNG" width="150" height="300">
 
 Once you click the song, you are brought to this screen that shows the current song playing and the suggested.
 
-<img src="img/beatnode4.PNG" width="960" height="640">
+<img src="img/beatnode4.PNG" width="150" height="300">
 
 From there, the user can click any of those songs, and the inference process repeats. Happy DJing!
 
