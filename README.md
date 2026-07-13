@@ -23,7 +23,7 @@ BeatNode
 │   ├── edgeprojUITests.swift
 │   ├── edgeprojUITests.swift
 ├── README.md
-├── img/ # (Pictures for the README)
+├── img/ # Pictures for the README
 
 ```
 
@@ -57,8 +57,8 @@ BeatNode
 
 ## MODEL 
 
-- The model uses K-Nearest Neighbors to generate 3 song reccomendations 
-- As house songs' tempos are all in a similar 127-133 range, I applied 70% weights on the key and only 30% weights on the BPM
+- The model uses K-Nearest Neighbors to generate 3 song reccomendations and adds the ones already played to a list, so they never repeat
+- As house songs' tempos are all in a similar 125-133 range, I applied 70% weights on the key and only 30% weights on the BPM
 - Slower or faster tempos characterize different subgenres of house, so while they are still important, they are not always as important as similarity in tune or key
 - The inference happens entirelly on the local iPhone hardware and takes <1 second 
 - To optimize for latency and low cost-computing, I did not choose to have a model in the CoreML format or have it in a cloud server 
