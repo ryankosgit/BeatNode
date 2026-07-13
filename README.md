@@ -13,8 +13,15 @@ BeatNode is an iOS app that uses low-latency edge computing and heuristic algori
 # PROJECT STRUCTURE
 ```text
 BeatNode
-├── ML/
-│   ├──
+├── edgeproj/
+│   ├── Assets./xcassets
+│   ├── ContentView.swift
+│   ├── egeprojApp.swift
+├── edgeprojTests/
+│   ├── edgeprojTests.swift
+├── edgeprojUITests/
+│   ├── edgeprojUITests.swift
+│   ├── edgeprojUITests.swift
 ```
 
 # HOW TO USE
@@ -36,7 +43,8 @@ BeatNode
 - There are 4 features for each song: title, artist, beats per minute, and key
 - The model, however, only considers BPM and Key in the prediction because they are many different 
 
-<>
+<img width="312" height="347" alt="image" src="https://github.com/user-attachments/assets/359a81a4-6fcf-45c6-b070-15f8b699796e" />
+
 
 - Typically, songs' keys are written as Ab, F# minor, or C major, but I used the Camelot Wheel to map them for easier calculations 
 - To find songs in similar keys on the Camelot Wheel, you observe adjacent number or letter segments 
