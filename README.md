@@ -66,6 +66,12 @@ BeatNode
 
 # INSIDE THE APP
 
+<imc src="img/beatnode1.PNG", width="960" height="640">
+
+Upon entering the app, the user is prompted with a search bar at the top.
+
+
+
 
 
 
