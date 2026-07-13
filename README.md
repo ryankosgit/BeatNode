@@ -33,13 +33,12 @@ BeatNode
 | Losing It | Fisher  | 125  | 6A  |
 | If U Need It  | Sammy Virji  | 132  | 2A  |
 
-- Here is a sneak peak at what the data for each song looks like in the dataset
 - There are 4 features for each song: title, artist, beats per minute, and key
 - The model, however, only considers BPM and Key in the prediction because they are many different 
 
 <>
 
-- Typically, songs' keys are written as Ab, F# minor, or C major, but I used the Camelot Wheel to easily find songs within a ____
+- Typically, songs' keys are written as Ab, F# minor, or C major, but I used the Camelot Wheel to map them for easier calculations 
 - To find songs in similar keys on the Camelot Wheel, you observe adjacent number or letter segments 
 - For example: if a song's key is in 10A (D-flat minor), other mixable songs would be 11A, 9A, or 10B
 
@@ -48,10 +47,11 @@ BeatNode
 
 - The model uses K-Nearest Neighbors to generate 3 song reccomendations 
 - As house songs' tempos are all in a similar 127-133 range, I applied 70% weights on the key and only 30% weights on the BPM
-- Slower or faster tempos characterize different subgenres of house, x
-- 
+- Slower or faster tempos characterize different subgenres of house, so while they are still important, they are not always as important as similarity in tune or key
+- The inference happens entirelly on the local iPhone hardware and takes <1 second 
+- To optimize for latency and low cost-computing, I did not choose to have a model in the CoreML format or have it in a cloud server 
 
-
+# INSIDE THE APP
 
 
 
